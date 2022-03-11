@@ -1,0 +1,41 @@
+body {
+    background-color: #FBEEE6;
+    color: #C0392B;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+div {
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+select {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+#submitButton {
+    width: 50px;
+    margin: auto;
+}
+
+#form {
+    background-color: #641E16;
+    color: #FBEEE6;
+    padding: 20px;
+    border-radius: 10px;
+}
