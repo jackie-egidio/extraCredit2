@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="extra2.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Joe's Hotdogs: Form</h1>
+        <div id="form">
+            <form>
+                <label for="hotDogQuantity">Select the number of <strong>hot dogs</strong> you would like ($3.75 each):</label>
+                <select id="hotDogQuantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+                <br />
+                <label for="friesQuantity">Select the number of <strong>fries</strong> you would like ($2.00 each):</label>
+                <select id="friesQuantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+                <br />
+                <label for="sodaQuantity">Select the number of <strong>sodas</strong> you would like ($1.80 each):</label>
+                <select id="sodaQuantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+                <br />
+                <br />
+                <br />
+                <div id="submitButton">
+                    <input id="btn" type="button" value="Submit" onclick="calculate();" />
+                </div>
+            </form>
+        </div>
+        <br />
+        <h2>Receipt:</h2>
+        <div id="results" style="text-align: center; font-size: 18px"></div>
+    </body>
+</html>
